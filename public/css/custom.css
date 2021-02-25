@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'aldo';
+    src: url('fonts/aldo_pc-Aekod.eot');
+    src: url('fonts/aldo_pc-Aekod.eot?#iefix') format('embedded-opentype'),
+    url('fonts/aldo_pc-Aekod.woff2') format('woff2'),
+    url('fonts/aldo_pc-Aekod.woff') format('woff'),
+    url('fonts/aldo_pc-Aekod.ttf') format('truetype'),
+    url('fonts/aldo_pc-Aekod.svg#aldosemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+#header .header-top{
+    border-bottom: 1px solid #bce8fa;
+}
+.social-icons.social-icons-icon-dark li a{
+    color:#fff
+}
+
+#header .header-body {
+    background: #78d0f4;
+}
+
+#header .header-nav-main nav > ul > li a
+{
+    font-family: aldo;
+}
+
+html #header .header-nav-main nav > ul > li > a.active, html #header .header-nav-main nav > ul > li:hover > a
+{
+    color: #000000;
+}
+
+#header .header-btn-collapse-nav .hamburguer span,#header .header-btn-collapse-nav .close span {
+    background: #fff;
+}
+
+@media (min-width: 992px) {
+    #header .header-nav-main nav > ul > li > a
+    {
+        color:#fff;
+        font-size: 24px;
+        border-radius: 0px;
+        padding: 0 15px;
+    }
+    #header .header-nav-main nav > ul > li.dropdown .dropdown-menu li a:not(.btn){
+        font-size: 16px;
+    }
+}
+
+.min-height-calc-1{
+    min-height: calc(100vh - 145px);
+}
+.owl-carousel.carousel-stripes .carousel-stripe-item{
+    height: calc(100vh - 145px);
+}
+.main{
+    min-height: calc(100vh - 219px);
+}
+.overflow-auto
+{
+    overflow: auto;
+}
